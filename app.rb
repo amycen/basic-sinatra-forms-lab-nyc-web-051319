@@ -3,7 +3,6 @@ require 'sinatra/base'
 class App < Sinatra::Base
 
   configure do
-    set :public_folder, 'public'
     set :views, 'views'
   end
   
